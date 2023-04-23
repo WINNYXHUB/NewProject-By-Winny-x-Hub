@@ -190,11 +190,17 @@ Section:NewButton("Reset", "Resets walk speed and jump power", function()
 
 end)
 
-local Section = Tab:NewSection("Rejoin")
+local Section = Tab:NewSection("Server")
 
-Section:NewButton("Rejoin", "Click Me To Rejoin server", function()
+Section:NewButton("Rejoin Server", "Click Me To Rejoin Server", function()
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Rejoin-Game/main/Rejoin%20Game.lua"))()
+
+end)
+
+Section:NewButton("Hop Server", "Click Me To Hop Server", function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/VduBT2nt"))()
 
 end)
 ------------------------------------------------------------------------
