@@ -4,6 +4,12 @@ local Window = Library.CreateLib("Winny x Hub", "BloodTheme")
 local Tab = Window:NewTab("By Winny x Hub")
 local Section = Tab:NewSection("FB Winny Exe")
 local Section = Tab:NewSection("Email Winny.th.ch@gmail.com")
+local Section = Tab:NewSection("Script")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+
+end)
 ------------------------------------------------------------------------
 local Tab = Window:NewTab("AutoFarm")
 ------------------------------------------------------------------------
@@ -220,13 +226,5 @@ function StopScript()
 end
 
 
-------------------------------------------------------------------------
-local Tab = Window:NewTab("Script")
-------------------------------------------------------------------------
-local Section = Tab:NewSection("Dark Dex")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
 
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))(); -- Dark Dex v4
-
-end)
