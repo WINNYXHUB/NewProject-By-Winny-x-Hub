@@ -199,7 +199,7 @@ local spToggle = Section:NewToggle("EspPlayer", "EspPlayer", function(state)
 
                 TextLabel.BackgroundTransparency = 1.000
 
-                TextLabel.Size = UDim2.new(0, 100, 0, 100)
+                TextLabel.Size = UDim2.new(0, 200, 0, 50)
 
                 TextLabel.Font = Enum.Font.GothamBold
 
