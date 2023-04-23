@@ -4,6 +4,8 @@ local Window = Library.CreateLib("Winny x Hub", "BloodTheme")
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("Project it Test")
 Section:NewLabel("Script it Made By Winny Exe")
+Section:NewLabel("FB : Winny Exe")
+Section:NewLabel("Email : winny.th.ch@gmail.com")
 ------------------------------------------------------------------------
 local Tab = Window:NewTab("AutoFarm")
 ------------------------------------------------------------------------
