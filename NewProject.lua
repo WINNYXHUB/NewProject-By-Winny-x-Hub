@@ -89,7 +89,8 @@ Section:NewButton("Reset", "Resets walk speed and jump power", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
-------------------------------------------------------------------------local Tab = Window:NewTab("combat")
+------------------------------------------------------------------------
+local Tab = Window:NewTab("combat")
 ------------------------------------------------------------------------
 local Tab = Window:NewTab("ESP")
 ------------------------------------------------------------------------
