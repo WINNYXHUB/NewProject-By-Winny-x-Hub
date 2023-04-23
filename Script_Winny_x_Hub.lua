@@ -17,6 +17,25 @@ Section:NewLabel("FB : Winny Exe")
 
 Section:NewLabel("Email : winny.th.ch@gmail.com")
 
+local Section = Tab:NewSection("Script")
+
+Section:NewButton("Dark Dex", "Click Me To Open Dark Dex", function()
+
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+
+end)
+
+Section:NewButton("Fly Mobile", "Click Me To Open Fly Mobile", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ArceusX-V3-Scripts/main/ArceusX-Fly.lua"))()
+
+end)
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
 ------------------------------------------------------------------------
 
 local Tab = Window:NewTab("AutoFarm")
