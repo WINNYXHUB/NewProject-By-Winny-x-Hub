@@ -31,9 +31,9 @@ Section:NewButton("Fly Mobile", "Click Me To Open Fly Mobile", function()
 
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Aimbot", "Click Me To Oper Aimbot", function()
 
-    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ArceusX-V3-Scripts/main/ArceusX-Aimbot.lua"))()
 
 end)
 ------------------------------------------------------------------------
