@@ -5,7 +5,7 @@ local Tab = Window:NewTab("By Winny x Hub")
 local Section = Tab:NewSection("FB Winny Exe")
 local Section = Tab:NewSection("Email Winny.th.ch@gmail.com")
 local Section = Tab:NewSection("Script")
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Dex-Explorer", "clip me to open Dex-Explorer", function()
 
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 
