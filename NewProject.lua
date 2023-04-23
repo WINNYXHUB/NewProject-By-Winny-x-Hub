@@ -218,3 +218,15 @@ function StopScript()
     end
 
 end
+
+
+------------------------------------------------------------------------
+local Tab = Window:NewTab("Script")
+------------------------------------------------------------------------
+local Section = Tab:NewSection("Dark Dex")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+
+    print("Clicked")
+
+end)
