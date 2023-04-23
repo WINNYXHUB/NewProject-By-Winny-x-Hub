@@ -3,14 +3,7 @@ local Window = Library.CreateLib("Winny x Hub", "BloodTheme")
 ------------------------------------------------------------------------
 local Tab = Window:NewTab("credit")
 local Section = Tab:NewSection("Project it Test")
-label:UpdateLabel("Script it Made By Winny Exe")
-label:UpdateLabel("FB : Winny Exe")
-label:UpdateLabel("Email : winny.th.ch@gmail.com")
-Section:NewButton("Dex-Explorer", "clip me to open Dex-Explorer", function()
-
-    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
-
-end)
+Section:NewLabel("Script it Made By Winny Exe")
 ------------------------------------------------------------------------
 local Tab = Window:NewTab("AutoFarm")
 ------------------------------------------------------------------------
