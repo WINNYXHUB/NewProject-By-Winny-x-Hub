@@ -50,7 +50,7 @@ TextLabel.Size = UDim2.new(0, 100, 0, 50)
 
 TextLabel.Font = Enum.Font.SpecialElite
 
-TextLabel.Text = "Winny x Hub"
+TextLabel.Text = "รันทำควยไร !!!!"
 
 TextLabel.TextColor3 = Color3.fromRGB(247, 72, 119)
 
